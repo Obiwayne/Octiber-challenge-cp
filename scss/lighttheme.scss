@@ -1,0 +1,76 @@
+
+
+$mainColor: #ffffff;
+$topBgColor: #f7f9ff;
+$cardBgColor: #f1f3fa;
+$cardHover: #e1e4f0;
+
+.light--theme {
+    background-color: $mainColor  ;
+
+  .head{
+      background: $topBgColor;
+
+      .row {
+
+        .head__titleContainer{
+            
+          h1{
+            color: #1d1f29;
+          }
+        } // head__titleContainer      
+
+
+      } // row
+  } // head
+
+  .main
+  {
+    background-color: $mainColor;
+    .main__bgColor{
+      background-color: $topBgColor;
+    }
+
+    .card
+    {
+      background-color: $cardBgColor;
+
+      &:hover{
+          background-color: $cardHover;
+        }
+      .content
+      {
+
+        > .stat{
+            color: #1d1f29;
+        }
+      }
+    }
+
+      // over view
+    .overView
+    {
+
+      h2{
+        color: #1d1f29;
+      }
+      .card{
+
+        .left > {
+
+          .viewCount{             
+            color: #1d1f29;
+          }
+        } // left
+
+      } //card
+    
+    } // overview
+  } // main
+} // light theme
+
+
+
+
+
+

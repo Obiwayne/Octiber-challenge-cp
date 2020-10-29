@@ -1,0 +1,75 @@
+
+
+$mainColor: #1d1f29;
+$topBgColor: #20222f;
+$cardBgColor: #252b43;
+$cardHover: #2e3551;
+
+.dark--theme {
+    background-color: $mainColor  ;
+
+  .head{
+      background: $topBgColor;
+
+      .row {
+
+        .head__titleContainer{
+            
+          h1{
+            color: white;
+          }
+        } // head__titleContainer      
+
+
+      } // row
+  } // head
+
+  .main
+  {
+    .main__bgColor{
+      background-color: $topBgColor;
+    }
+
+    .card
+    {
+      background-color: $cardBgColor;
+
+      &:hover{
+          background-color: $cardHover;
+        }
+      .content
+      {
+
+        > .stat{
+          color: white;
+        }
+      }
+    }
+
+      // over view
+    .overView
+    {
+
+      h2{
+        color: white;
+      }
+      .card{
+
+        .left > {
+
+          .viewCount{             
+            color: white;
+          }
+        } // left
+
+      } //card
+    
+    } // overview
+  } // main
+} // light theme
+
+
+
+
+
+

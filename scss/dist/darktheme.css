@@ -1,0 +1,27 @@
+.dark--theme {
+  background-color: #1d1f29;
+}
+.dark--theme .head {
+  background: #20222f;
+}
+.dark--theme .head .row .head__titleContainer h1 {
+  color: white;
+}
+.dark--theme .main .main__bgColor {
+  background-color: #20222f;
+}
+.dark--theme .main .card {
+  background-color: #252b43;
+}
+.dark--theme .main .card:hover {
+  background-color: #2e3551;
+}
+.dark--theme .main .card .content > .stat {
+  color: white;
+}
+.dark--theme .main .overView h2 {
+  color: white;
+}
+.dark--theme .main .overView .card .left > .viewCount {
+  color: white;
+}

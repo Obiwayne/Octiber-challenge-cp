@@ -1,0 +1,30 @@
+.light--theme {
+  background-color: #ffffff;
+}
+.light--theme .head {
+  background: #f7f9ff;
+}
+.light--theme .head .row .head__titleContainer h1 {
+  color: #1d1f29;
+}
+.light--theme .main {
+  background-color: #ffffff;
+}
+.light--theme .main .main__bgColor {
+  background-color: #f7f9ff;
+}
+.light--theme .main .card {
+  background-color: #f1f3fa;
+}
+.light--theme .main .card:hover {
+  background-color: #e1e4f0;
+}
+.light--theme .main .card .content > .stat {
+  color: #1d1f29;
+}
+.light--theme .main .overView h2 {
+  color: #1d1f29;
+}
+.light--theme .main .overView .card .left > .viewCount {
+  color: #1d1f29;
+}
